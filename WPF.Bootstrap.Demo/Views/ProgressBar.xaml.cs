@@ -23,6 +23,7 @@ namespace WPF.Bootstrap.Demo.Views
         public ProgressBar()
         {
             InitializeComponent();
+            WebBrowser.NavigateToString("<html><body><div><h1> body body bodyyy </h1></div></body></html> ");
         }
     }
 }

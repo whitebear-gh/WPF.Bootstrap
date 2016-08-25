@@ -9,5 +9,8 @@
         <ProgressBar IsIndeterminate="False" Margin="10" Height="20" MaxHeight="100" Value="20"></ProgressBar>
         
         <ProgressBar IsIndeterminate="True" Margin="10" Height="20" Maximum="100" Value="50"></ProgressBar>
+        <WebBrowser Width="400" Height="500" Name="WebBrowser" Style="{x:Null}">
+            
+        </WebBrowser>
     </StackPanel>
 </UserControl>
